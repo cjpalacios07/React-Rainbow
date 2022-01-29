@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
+// Set input for user selection
 function ColorForm(props){
     let [input, setInput] = useState('')
 
     const handleSubmit = (e) => {
-        // We still want to eliminate the default behavior of our form submittal
         e.preventDefault()
-        // addColor, the function we just built, should be available within props.
+        //Utilizing add color funtion
         props.addColor(input)
     }
 
@@ -21,4 +21,5 @@ function ColorForm(props){
     )
 }
 
+//Export component
 export default ColorForm

@@ -9,5 +9,5 @@ function ColorBlock(props){
     )
 }
 
-// Do not forget to export your component once you have built it!
+//Export component
 export default ColorBlock
